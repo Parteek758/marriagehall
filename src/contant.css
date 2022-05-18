@@ -1,0 +1,438 @@
+@font-face {
+    font-family: "Nexa-bold";
+    src: url("./font/Nexa\ Bold.otf");
+    font-weight: 100; }
+  
+  @font-face {
+    font-family: "Nexa-light";
+    src: url("./font/Nexa\ Light.otf");
+    font-weight: 100; }
+.section1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue
+}
+.section1-wrapper{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-text{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper-text h1{
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    letter-spacing: .5vh;
+    font-family: "Nexa-light";
+}
+#carouselExampleIndicators{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image-banner{
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+#banner{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section-1 */
+#card-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+}
+#card{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+#banner1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.section{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-wrapper{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-wrapper h2{
+    font-size: xx-large;
+    color: cornflowerblue;
+}
+/* section-2  */
+.section-2{
+width: 100%;
+height: 130vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.section2-wrapper{
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+}
+.wrapper-image{
+    width: 29%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+/* section-3 */
+.section3{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper iframe{
+    width: 100%;
+    height: 100%;
+}
+.address{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.address-wrapper{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.address-wrapper h3{
+    font-size:40px;
+    font-family: "Nexa-bold";
+    color: black; 
+    margin-top: 3px;
+}
+.adderss-wrapper1{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+}
+.adderss-wrapper1 p{
+font-size:25px;
+font-family: "Nexa-light";
+color: black;
+}
+.adderss-wrapper1 p:hover{
+    color: rgb(65, 117, 113);
+    transition: 1s;
+}
+.phone{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phone-wrapper{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.phone-wrapper h3{
+    font-size:30px;
+    font-family: "Nexa-bold";
+    color: black; 
+}
+.phone-number{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.phone-number p{
+    font-size:25px;
+    font-family: "Nexa-light";
+    color: black;
+    margin-top: 6px;
+    }
+.phone-number p:hover{
+        color: rgb(65, 117, 113);
+        transition: 1s;
+    }
+.email{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email-wrapper{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: center;
+}
+.email-wrapper h3{
+    font-size:30px;
+    font-family: "Nexa-bold";
+    color: black; 
+}
+.email-id{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.email-id a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+    font-family: "Nexa-light";
+    margin-top: 3px;
+}
+.email-id a:hover{
+    color: rgb(65, 117, 113);
+        transition: 1s;
+}
+/* fotter  */
+
+#link-tag{
+    color: white;
+    text-decoration: none;
+}
+#link-tag:hover{
+    color: #a0dcfa;
+    text-decoration: underline;
+}
+.whatsapp{
+    font-size: 32px;
+    padding: 3px;
+}
+.Phone{
+    font-size: 32px;
+    padding: 3px;
+}
+.Instagram{
+    font-size: 32px;
+    padding: 3px;
+}
+.Facebook{
+    font-size: 32px;
+    padding: 3px;
+}
+
+
+/* section-4  */
+.section-4{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 1rem;
+}
+.section4-wrapper{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+.wrapper-section4{
+width: 100%;
+height: 60%;
+display: flex;
+align-items: center;
+justify-content:center; 
+}
+.section4-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center; 
+}
+.section4-text h2{
+    font-size: 30px;
+}
+.section4-text h2 span{
+    font-size: 50px;
+}
+.wrapper1-section4{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between; 
+}
+.section4-image{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+}
+.section4-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    padding: 1px;
+}
+.image-text-section4{
+    left: 0;
+    width: 20%;
+    height: 36%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+.image-text-section4 h4{
+    color: white;
+    filter: brightness(10);
+    letter-spacing: .5vh;
+    font-family: "Nexa-light";
+}
+.image-text1-section4{
+    right: 0;
+    width: 20%;
+    height: 36%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+.image-text1-section4 h4{
+    color: white;
+    filter: brightness(10);
+    letter-spacing: .5vh;
+    font-family: "Nexa-light";
+}
+.mainwrapper{
+    position:absolute;
+    width: 60%;
+    height: 70%;
+    margin-bottom: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4-main-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.section4-main-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section4-mainwrapper-after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.5px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.section4-mainwrapper-after h2{
+color: white;
+font-family: "Nexa-light";
+font-size: 30px;
+}
+.section4-mainwrapper-after p{
+    color: white;
+    font-family: "Nexa-light";
+    font-size: 20px;
+}
+

@@ -1,0 +1,225 @@
+@import url(./font.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 80vh;
+    color: white;
+    border-radius: 0%;
+    border-bottom: white;
+    padding: 0;
+}
+.card video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headding-text{
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.headding{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headding h1{
+font-size: 40px;
+font-weight: 500;
+letter-spacing: 10%;
+color: cornflowerblue;
+font-family: "Nexa-light";
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .section4 {
+      height: 150rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .contant {
+      height: 10%; }
+    .Treatment {
+      width: 95%;
+      height: 95%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+    .Patient {
+      height: 16%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-size: 100% 100%; }
+    .Specialists {
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+    .section-4-h3 {
+      text-align: left;
+      margin-bottom: 0%;
+      padding-left: 5%; }
+    .section-4-p {
+      text-align: left;
+      margin-left: 5%;
+      line-height: 50px; } }
+  
+  @media all and (min-width: 768px) and (max-width: 1033px) {
+    .section4 {
+      height: 80rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .Treatment {
+      width: 95%;
+      height: 95%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+    .Patient {
+      height: 30%;
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-size: 100% 100%; }
+    .Specialists {
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+    .section-4-h3 {
+      text-align: left;
+      margin-bottom: 0%;
+      padding-left: 5%; }
+    .section-4-p {
+      text-align: left;
+      margin-left: 5%;
+      line-height: 50px; } }
+  
+  @media (min-width: 1034px) {
+    .section4 {
+      height: 60rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;}
+      .section4 .Treatment {
+        width: 95%;
+        height: 95%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;}
+        .section4 .Treatment #treatment-div-id1 {
+          grid-row-start: 1;
+          grid-row-end: 12;
+          background-image: url(../image/image6.jpg);
+          background-size: 100% 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+        .section4 .Treatment #treatment-div-id4 {
+          grid-row-start: 12;
+          grid-row-end: 20;
+          background-image: url(../image/image15.jpg);
+          background-size: 100% 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+        .section4 .Treatment #treatment-div-id2 {
+          grid-row-start: 1;
+          grid-row-end: 10;
+          background-image: url(../image/image14.jpg);
+          background-size: 100% 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+        .section4 .Treatment #treatment-div-id5 {
+          grid-row-start: 10;
+          grid-row-end: 20;
+          background-image: url(../image/image10.jpg);
+          background-size: 100% 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+        .section4 .Treatment #treatment-div-id3 {
+          grid-row-start: 1;
+          grid-row-end: 9;
+          background-image: url(../image/image5.jpg);
+          background-size: 100% 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+        .section4 .Treatment #treatment-div-id6 {
+          grid-row-start: 9;
+          grid-row-end: 20;
+          background-image: url(../image/image4.jpg);
+          background-size: 100% 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+        .section4 .Treatment .Specialists {
+          height: 70%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          background: linear-gradient(#797c8500 5%, #151422a1 50%); }
+          /* .section4 .Treatment .Specialists .section-4-h3 {
+            text-align: left;
+            margin-bottom: 0%;
+            padding-left: 5%;
+            line-height: 35px;
+            color: #ffffffff;
+            border: solid 1px rgb(0, 247, 255); }
+          .section4 .Treatment .Specialists .section-4-p {
+            text-align: left;
+            margin-left: 5%;
+            margin-bottom: 15px;
+            color: #ffffffff;
+            border: solid 1px rgb(200, 255, 0); }  */
+          }
+
+ /* section1 */
+
+.section-1{
+width: 100%;
+height: 120vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.section-1 .section1-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section1-image{
+  width: 32%;
+  height: 32%;
+}
+.section1-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

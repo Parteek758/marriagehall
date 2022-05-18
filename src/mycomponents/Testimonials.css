@@ -1,0 +1,107 @@
+.text{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.5vh;
+}
+.text-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.text2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text2-headding{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2-wrapper{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.text2wrapper-wrapper{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.text2image{
+width: 30%;
+height: 25%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+padding: 10px;
+}
+.text2image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.text2name{
+    width: 90%;
+    height: 20%;
+    display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.text2-text{
+    width: 90%;
+    height: 45%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.text2media{
+    width: 90%;
+    height: 10%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.text2media-items{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+}
+.text2media-items li{
+    font-size: 30px;
+    }
+.text2media-items li a{
+color: black;
+}
+
+.text2image .text2name .text2-text .text2media:hover{
+    background-color: cadetblue;
+}

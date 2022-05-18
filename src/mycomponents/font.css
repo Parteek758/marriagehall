@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Nexa-bold";
+    src: url("../font/Nexa\ Bold.otf");
+    font-weight: 100; }
+  
+  @font-face {
+    font-family: "Nexa-light";
+    src: url("../font/Nexa\ Light.otf");
+    font-weight: 100; }
