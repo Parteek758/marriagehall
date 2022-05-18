@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0711308.css",
+    "main.js": "/static/js/main.238ddc82.js",
+    "static/js/787.bb4148e9.chunk.js": "/static/js/787.bb4148e9.chunk.js",
+    "static/media/pexels-mohit-jain-5951236.mp4": "/static/media/pexels-mohit-jain-5951236.ed9aa26916ed5a17a6e1.mp4",
+    "static/media/person.png": "/static/media/person.7648c9f2e483d205ab51.png",
+    "static/media/image4.jpg": "/static/media/image4.41c8069ff0cb1b3e759b.jpg",
+    "static/media/image9.jpg": "/static/media/image9.813e6216553d57da79ca.jpg",
+    "static/media/image2.jpg": "/static/media/image2.be73126739d269bf4051.jpg",
+    "static/media/image15.jpg": "/static/media/image15.dd2d8c01e004f7732706.jpg",
+    "static/media/image11.jpg": "/static/media/image11.25257a058b5f75009bd1.jpg",
+    "static/media/image17.jpg": "/static/media/image17.511a955099b92066a84c.jpg",
+    "static/media/image13.jpg": "/static/media/image13.c423792865fc28a6b6eb.jpg",
+    "static/media/image14.jpg": "/static/media/image14.87b9caab99c511ece7fc.jpg",
+    "static/media/image8.jpg": "/static/media/image8.be4a05605bc9a5a7aaa7.jpg",
+    "static/media/image6.jpg": "/static/media/image6.0bb0c1aaf9070c33063b.jpg",
+    "static/media/image12.jpg": "/static/media/image12.7f1d660e7c45b61da12d.jpg",
+    "static/media/image10.jpg": "/static/media/image10.eb1e3304d39dfbd1c2a6.jpg",
+    "static/media/image3.jpg": "/static/media/image3.b431265f6343916ac5a9.jpg",
+    "static/media/image7.jpg": "/static/media/image7.f91da05eabb66fed4112.jpg",
+    "static/media/image18.jpg": "/static/media/image18.5d5df81e5daa08b4dd06.jpg",
+    "static/media/image5.jpg": "/static/media/image5.5d5df81e5daa08b4dd06.jpg",
+    "static/media/image1.jpg": "/static/media/image1.6b1d121a0b7a7813cea3.jpg",
+    "static/media/image16.jpg": "/static/media/image16.c7c6e0749a874818d99b.jpg",
+    "static/media/Nexa Bold.otf": "/static/media/Nexa Bold.c2b99812f7617bd31a22.otf",
+    "static/media/Nexa Light.otf": "/static/media/Nexa Light.2bac835e8aabddeb710c.otf",
+    "index.html": "/index.html",
+    "main.c0711308.css.map": "/static/css/main.c0711308.css.map",
+    "main.238ddc82.js.map": "/static/js/main.238ddc82.js.map",
+    "787.bb4148e9.chunk.js.map": "/static/js/787.bb4148e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0711308.css",
+    "static/js/main.238ddc82.js"
+  ]
+}
